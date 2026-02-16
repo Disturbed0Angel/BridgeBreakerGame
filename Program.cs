@@ -24,7 +24,7 @@ targetFrequency = ((length * height) + random.Next(1, 101)) % 100;
 Console.WriteLine("Agent, please use Frequency... *ERROR*... *ERROR*... Result Encrypted!");
 if (isDebugMode)
 {
-    Console.WriteLine($"DEBUG MODE: Target Frequency is {targetFrequency} Hz");
+    Console.WriteLine($"DEBUG MODE: Target Frequency is {targetFrequency} Hz \nTarget breaks are at 3,6 and 7+ attempts");
 }
 Console.WriteLine("The Agent will need to guess the targeted frequency!");
 
