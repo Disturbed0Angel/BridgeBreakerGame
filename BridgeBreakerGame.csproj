@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include=".github\workflows\build.txt">
+    <Content Include=".github\workflows\build.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>build.yml</DependentUpon>
@@ -18,7 +18,7 @@
   <ItemGroup>
     <None Include=".github\workflows\build.yml">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>build.txt</LastGenOutput>
+      <LastGenOutput>build.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
