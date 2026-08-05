@@ -20,3 +20,4 @@ BridgeBreaker is a tactical harmonic oscillator simulator built on **.NET 10 (LT
 1. Ensure you have the [.NET 10 SDK](https://dotnet.microsoft.com/download) installed.
 2. Clone the repo: `git clone https://github.com/YOUR_USERNAME/BridgeBreaker.git`
 3. Run the app: `dotnet run`
+<!-- Wake up cloud runner -->
